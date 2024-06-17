@@ -1,0 +1,65 @@
+
+/* header */
+.header{
+    width: 100vw;
+    position: fixed;
+    z-index: 11;
+    background-color: var(--colorbg2);
+}
+.logo{
+    width: 30%;
+    height: 40px;
+}
+.logo .logo-img{
+    margin-left:10%;
+    font-size: 27px;
+    font-weight: 900;
+    color: var(--color2);  
+}
+.header .header-content{
+    width: 70%;
+    height: 60px;
+    padding-left: 100px; 
+}
+.header .header-content > li{
+    display: inline-block;
+    margin-left: 5px;
+}
+.header .header-content > li a{
+    color: var(--color2);
+    display: block;
+    padding: 10px;
+    font-size: 15px;
+}
+.header .header-content > li a.activ:after , 
+.header .header-content > li a:after {
+    content: "";
+    margin-top: 2px;
+    height: 2px;
+    background-color: var(--color1);
+    display: block;
+    transition: width 1s;
+}
+.header .header-content > li a.active:after{   width: 100%;
+    width: 100%;
+}
+.header .header-content > li a:after{
+    width: 0%;
+}
+.header .header-content > li a:hover:after{
+    width: 100%;
+}
+.header .header-content > li ul {
+    width: 150px;
+    border: 0;
+    border-radius: 4px;
+    background-color: var(--color1);
+    color: var(--color2);
+    opacity: 0;
+    transition: visibility .5s , opacity .5s;
+    margin-left: -45px;
+}
+.header .header-content > li:hover  ul  {
+    opacity: 100%;
+    visibility: visible;
+}

@@ -1,0 +1,62 @@
+
+.touchsection-content-height{
+    width: 80%;
+    height: 25vh;
+    margin: 50px auto 0 auto;
+    padding-left: 15px; 
+}
+.touchsection-content-height .sectiontouch-content-items{
+    width: 32%;
+    height: 100%;
+}
+.touchsection-content-height .sectiontouch-content-items.center{
+    margin: 0 10px;
+}
+.sectiontouch-content-items i{
+    margin-top: 20px;
+}
+.sectiontouch-content-items h3 ,.sectiontouch-content-items p{
+    margin: 20px 0;
+}
+.sectiontouch-content-items p{
+    font-size: 14px;
+    color: var(--color6);
+}
+.touchsection-content-bottom{
+    width: 57%;
+    height: 35vh;
+    margin: auto;
+}
+input[placeholder="Name"] , input[placeholder="Email"]{
+    display: inline-block;
+    width: 48%;
+    margin: 10px 5px 0 5px;
+    height: 35px;
+} 
+input[placeholder="Subject"] , input[placeholder="Message"]{
+    display: block;
+    width: 98%;
+    height: 35px;
+    margin: 10px 5px ;
+} 
+.touchsection-content-bottom form input{
+    background-color: var(--color7);
+    padding-left:  10px;
+    border-radius: 2px;
+    border: none;
+}
+.touchsection-content-bottom form input:hover{
+    box-shadow: 0.5px 2px 0px 2px var(--color1) , -0.5px -1px 2px 1px var(--color1)  ;
+}
+.touchsection-content-bottom button{
+    left: 39%;
+    height: 45px;
+    width: 150px;
+    background-color: var(--color1);
+    color: var(--color2);
+    border: none;
+    border-radius: 4px;
+    margin-top: 20px;
+    font-size: 15px;
+    cursor: pointer;
+}

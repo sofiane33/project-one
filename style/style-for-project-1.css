@@ -1,0 +1,89 @@
+/* standards   styles  */
+html{
+    direction: ltr;
+}
+body{
+    font-family: 'Varela Round' , sans-serif ;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ /*    common styles 
+  1/ opacity hover 
+  2/ the hidenn black layer (top to bottom) and (left to right )
+  3/ the titels sub-line */ 
+.the-black-div{
+    width: 100%;
+    height: 100%;
+    background-color:var(--colorbg1) ;   
+}
+.sections-title{
+    font-size: 30px;
+}
+span{
+    width:35px;
+    height: 3px;
+    background-color:var(--color1);
+    display: block;
+    margin: 10px auto 0 auto;
+}
+ul {
+    list-style: none ;
+}
+h1,h2,h3,h4,h5,h6{
+   font-family: 'Montserrat', sans-serif;
+}
+.btn:hover{ 
+    opacity: 75%;
+}
+a {
+    text-decoration: none;
+}
+.section-padding-y {
+    padding-top: 120px;
+    padding-bottom: 50px;
+}
+.section-padding-x{
+    padding-left: 100px;
+    padding-right: 100px;
+}
+.icon{
+    color: var(--color1);
+}
+.clear-float{
+    clear: both;
+}
+.bg-gray{ /*sections 3 , 5 , news  */
+    background-color: var(--color4);
+}
+         /* *** site sections style  ***/ 
+/* header */
+/* start section  */
+/* secund section */
+/* section-3 */
+/* section 4 */
+ /* section 5 */
+/* section 6  */
+ /* section 7 */
+ /* section our-team  */  
+/* section of news */
+/* section touch  */
+/*  fotter  section  */
+
+.my-code{
+    position: absolute;
+     right: 0; 
+     top: 0;
+    opacity: 0%;
+    transition: opacity 2S;
+    z-index: 200;
+    transition-delay: 1s;
+}
+.my-code:hover{
+    opacity: 100%;
+   }
+  
+
+

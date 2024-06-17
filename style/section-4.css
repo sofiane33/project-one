@@ -1,0 +1,40 @@
+/* section-4 */
+.section4-items{
+    margin : 50px auto 0px auto ;
+    width: 75vw;
+}
+.section4-items-content{   
+    width: 31%;
+    height: 180px;
+    border: solid 1px var(--color7);
+}
+.section4-items-content.item2 , .section4-items-content.item5{   
+    margin: 0px 3.5%;
+}
+.section4-items-content i {
+    top: 15px;
+    left: 5px;
+}
+.section4-titles ,.section4-texts{
+    margin-left: 17%;
+    margin-top: 20px;
+}
+.section4-titles {
+    font-size: 20px;
+    transition: color 0.5s;
+}
+.section4-texts {
+    margin-right: 10px;
+    transition: color 0.5s;
+    color: var(--color6);
+}
+.section4-items-content:hover .the-black-div-section4 {
+    width: 100%;
+    height: 100%;
+}
+.section4-items-content:hover h4{
+    color: var(--color2);
+}
+.section4-items-content:hover p{
+    color: var(--color5);
+}

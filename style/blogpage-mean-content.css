@@ -1,0 +1,197 @@
+
+    /* blogpage-mean-content left and right  */
+
+    .mean-content{
+        height: 190vh;
+    }
+    .mean-content-items{
+        height: 100%;
+        margin: auto;
+    }
+    .mean-content-item{
+        height: 100%;
+    }
+    .mean-content-item.left{
+        width: 70%; 
+    }
+    .mean-content-item.right{
+        width: 30%;
+    }
+    .mean-content-item-img{
+        width: 100%;
+        height: 450px;
+    }
+    .mean-content-list-bp {
+        margin: 25px 0 0 0;
+    }
+    .mean-content-list-bp li{
+        display: inline-block;
+    }
+    .mean-content-list-bp li.center{
+        margin: 0px 15px;
+    }
+    .mean-content-subtitltes-bp{
+        margin-left: 5px;
+        font-size: 15px;
+    }
+    .bp-title-text{
+        padding-right: 20px;
+    }
+    .bp-title {
+        margin: 25px 0;
+    }
+    .bp-text{
+        line-height: 1.6;
+        color: var(--color6);
+        font-size: 15px;
+    }
+    .mean-content-tags{
+        margin: 45px 0 25px 0;
+    }
+    .tags{
+        font-weight: 600;
+        font-size: 16px;
+        margin: 7px 5px 0 0;
+    }
+    .mean-content-tags ul li a{
+        height: 100%;
+        margin: 0 4px;
+        padding: 7px 10px;
+    }
+    .mean-content-tags ul li a:hover{
+        background-color: var(--color5);
+    }
+    .mean-content-tags ul li i{ 
+       margin-right: 3px;
+    }
+    .bp-designer{
+        height: 170px;
+        width: 100%;
+        margin: 25px 0;
+    }
+    .bp-designer-content{
+        height: 100%;
+    }
+    .bp-designer-content.img{
+        width: 20%;
+    }
+    .bp-designer-content.discription{
+        width: 80%;
+    }
+    .bp-designer-content.discription .bp-designer-title-icons {
+        height: 30%;
+        width: 100%;
+        padding:  10px 5px 0 0;
+    }
+    .bp-designer-content.discription .bp-designer-title-icons .title {
+       margin-left:15px;
+    }
+    .bp-designer-content.discription .bp-designer-title-icons .icons {
+       float: right;
+    }
+     .bp-designer-content.discription .bp-designer-title-icons a{
+        float: right;
+        width: 30px;
+        height: 30px;
+        margin: 0 5px;
+        padding: 7px ;
+        border-radius: 5px;
+     }
+     .bp-designer-content.discription .bp-designer-title-icons a:hover{
+        opacity: 75%;
+     }
+     .bp-designer-content-text{
+        margin: 30px 30px 0 15px ;
+        line-height: 1.4;
+        color: var(--color6);
+     }
+    
+         /* right-content */  
+    
+    .categorys{
+        width: 100%;
+        padding: 0px 20px 30px 20px ;
+    }
+    .poulare-posts {
+        width: 100%;
+        padding: 0px 20px 30px 20px ;
+    }
+    .categorys .search input{
+        border: 0;
+        width: 80%;
+        height: 30px;
+    }
+    .categorys .search .icon-button{
+        width: 10%;
+        height: 30px;
+        padding: 5px;
+        border: 0;
+        display: inline-block;
+        cursor: pointer;
+    }
+    .corsoor{
+        cursor: pointer;
+    }
+    .category-title {
+        margin-top: 50px;
+    }
+    .category-content ,.poulare-posts-content{
+        margin-top: 15px;
+        width: 100%;
+    }
+    .category-content div{
+        width: 100%;
+        margin: 13px 0;
+    }
+    .category-content-nember{
+        right: 0;
+    }
+    .category-content-item , .category-content-nember{
+        display: inline-block;
+    }
+    .category-content div:hover{
+        color: var(--color1);
+    }
+    .poulare-posts-content-div{
+        height: 70px;
+        margin: 0 0 35px 0 ;
+    }
+    .poulare-posts-content-div:hover .polulare-div.img{
+        opacity: 75%;
+    }
+    .poulare-posts-content-div .polulare-div{
+        height: 100%;
+    } 
+    .poulare-posts-content-div .polulare-div.img{
+        width: 25%;
+    } 
+    .poulare-posts-content-div .polulare-div.text{
+        width: 75%;
+    } 
+    .polulare-div-text{
+        margin-left: 10px;
+        font-size: 14px;
+        color: var(--color1);
+    }
+    .polulare-div-title{
+       margin: 5px 0 10px 10px;
+    }
+    .tags-right {
+        padding:0 20px 20px 20px ;
+        height: 200px;
+    }
+    .tags-links{
+        width: 70%;
+        margin-top: 20px
+    }
+    .tags-links-items{
+        width: 70px;
+        height: 30px;
+        line-height: 2;
+        padding: 5px;
+        margin: 2px 2px;
+    }
+    .tags-links-items:hover{
+        background-color: var(--color5);
+    }
+    

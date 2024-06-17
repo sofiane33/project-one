@@ -1,0 +1,125 @@
+   /* common styles */
+   
+.mean-content-item-img img , .bp-designer-img , .polulare-div-img{
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+ .bp-designer-content.discription .bp-designer-title-icons .icons {
+    color: #fff;
+}
+.mean-content-tags ul li a,.tags-links-items{
+    color: #000;
+}
+.bp-designer-content.discription .bp-designer-title-icons a ,.leave-button{
+    background-color: var(--color1);
+}
+.section-one , .mean-content-tags ul li a ,.category-content ,.poulare-posts-content,
+.tags-links-items ,  .tags-links-items ,.categorys .search .icon-button , .categorys .search input  {
+    background-color: var(--color4);
+}
+.poulare-posts-content-div ,.category-content div ,.leave-input {
+    background-color: var(--color7);
+}
+.header-bp , .section-one {
+    border-bottom: 1px solid var(--color7);
+}
+
+ /* section-one */
+
+    /* section-mean-content */
+    /* left-content and right-content */
+
+ /* section-bottom  */
+
+.bottom-content{
+    width: 70%;
+    margin-top: 25px 25px 0 25px;
+    padding: 0 20px;
+}
+.bottom-content-items{
+    width: 100%;
+    height: 110px;
+    margin: 20px 0;
+    border: 2px solid transparent;
+    padding: 10px; 
+}
+.bottom-content-items:hover{
+    border: 2px solid var(--color1);
+    background-color: var(--color7);
+}
+.bottom-content-items:hover .bottom-content-item-title{
+    color: var(--color1);
+}
+.bottom-content-items .bottom-content-item {
+    height: 100%;
+}
+.bottom-content-items .bottom-content-item.img{
+    width: 10%;
+}
+.bottom-content-items .bottom-content-item.text{
+    width: 90%;
+}
+.bottom-content-item-title , .bottom-content-item-subtitle , .repaly-link{
+    display: inline-block;
+}
+.bottom-content-item-title {
+    margin: 0 20px 15px 20px;
+}
+.bottom-content-item-subtitle ,.bottom-content-item-text , .repaly-link{
+    font-size: 15px;
+}
+.bottom-content-item-text{
+    margin-left: 20px ;
+    line-height: 1.6;
+    color: var(--color6);
+}
+.repaly-link{
+    color: var(--color1);
+    right: 0;
+}
+   /* leave  */
+.leave{
+    margin: 40px 0 100px 0 ;
+}
+.leave-title::first-letter{
+    text-transform: capitalize;
+}
+.leave-input-form{
+    height: 170px;
+    width: 70%;
+}
+.leave-input.textarea{
+    display: block;
+    margin: 5px;
+    width: 98%;
+    height: 50px;
+    border: 0;
+    padding: 15px 8px;
+}
+.leave-input.name , .leave-input.email{
+    width: 48%;
+    height: 30px;
+    border: 0;
+    margin: 10px 5px 5px 5px;
+    padding-left: 8px;
+}
+.leave-input:hover{
+    box-shadow: 0.5px 2px 0px 2px var(--color1) , -0.5px -1px 2px 1px var(--color1)  ;
+}
+.leave-button{
+    left: 39%;
+    height: 45px;
+    width: 120px;
+    color: var(--color2);
+    border: none;
+    border-radius: 4px;
+    margin: 10px 5px 5px 5px;
+    font-size: 15px;
+    cursor: pointer;
+}
+.leave-button:hover{
+    opacity: 75%;
+}
+

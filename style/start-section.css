@@ -1,0 +1,47 @@
+/* start section */
+.continer{
+    width: 80vw;
+    margin: auto;
+}
+.body-1 .mean-text-content h1.title{
+    color: var(--color2);
+    font-size: 40px;
+   font-size: 40px;
+}
+.body-1{
+    height: 100vh;
+    background-image: url(../pic/wallpaperflare.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.body-1 .mean-text-content{
+    width: 78%;
+    height: 40%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+}
+.body-1  .mean-text-content .subtitle-text{
+    color: var(--color2);
+    line-height: 24px;
+    letter-spacing: 2px;
+}
+.body-1 .the-black-div .mean-text-content .btn{
+    width:120px;
+    height: 40px;
+    border-radius: 5px;
+    border: none;
+    transition: opacity 0s;
+    cursor: pointer;
+    font-size: 15px;
+    font-family: inherit;
+}
+.body-1 .the-black-div  .mean-text-content .btn-left{
+     margin-right: 1px;
+}
+.body-1 .the-black-div .mean-text-content .btn-right{
+    margin-left: 1px;
+    color: var(--color2);
+    background-color: var(--color1);
+}

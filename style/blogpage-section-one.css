@@ -1,0 +1,32 @@
+
+   /* section-one - blogpage */
+.section-one{
+    height: 35vh ;
+}
+.section-one-content{
+    display: block;
+    margin: 15px auto;
+    height: 50%;
+}
+.section-one-items {
+    height: 100%;
+    width: 50%;
+}
+.bp-logo{
+    margin-left: 40px;
+    font-size: 38px;
+}
+.header-content-bp > li {
+    display: inline-block ;
+    font-size: 16px;
+    margin: 15px 2px;
+}
+.header-content-bp > li.header-content-bp-items-3 {
+    margin-right: -50px;
+}
+.header-content-bp > li.header-content-bp-items-1 a ,.header-content-bp > li.header-content-bp-items-2 a {
+    color: var(--color1);
+}
+.header-content-bp > li.header-content-bp-items-3 a{
+    color: #000;
+}

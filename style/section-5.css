@@ -1,0 +1,64 @@
+   /* section-5  */
+   div.section-5 .section5-content{
+    width: 100%;
+    height: 60vh;
+}
+div.section-5 .section5-content .sectio5-list{
+    width: 57%;
+    height: 100%;
+    padding-left: 45px;
+}
+.section-5 .section5-content .section5-pictur{
+    height: 100%;
+    width: 43%;
+}
+.section-5 .section5-content .section5-pic{
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;   
+}
+span.sub-line-section5{
+    margin-left: 0px;
+}
+h2.sections-title.section5-title{ 
+    display: inline-block; 
+    margin-left: 0px;
+}
+P.section5-text{
+    margin-top: 40px;
+    line-height: 1.4;
+    margin-right: 20px ;
+    color: var(--color6);
+}
+ul.section5-ulist li .section5-list-content{
+    margin: 5px 0 5px 3px;
+    color: var(--color6);
+    font-size: 15px;
+}
+.icon-cection5{
+    border: 1px solid var(--colorbg1);
+    width: 25px;
+    height: 25px;
+    padding: 12px 3px;
+    border-radius: 50px;
+    margin: 0px 0px 11px 2px;
+}
+.section5-points {
+    width: 43%;
+    float: right;
+}
+.section5-points li{
+    width: 10px;
+    height: 10px;
+    background-color: var(--color7);
+    display: inline-block;
+    border-radius: 50px;
+    margin: 10px 5px;
+}
+.section5-points li.A{
+    background-color: var(--color1);
+}
+.section5-points li:hover {
+    background-color: var(--color1);
+}

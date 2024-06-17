@@ -1,0 +1,42 @@
+   /* section-7 */
+.section-7{
+    height: 55vh;
+    background-image: url("../pic/wallpaperflare(7).jpg");
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+}
+.section7-content{
+    width: 88%;
+    margin: auto ;
+    padding-left:55px;
+}
+.section7-content-items{
+    top: 110px;
+    width: 38%;
+}
+.section7-content-items.item1{
+    margin-right: 33px;
+}
+.section7-content-items .section7-img{
+    width: 70px;
+    height: 70px;
+    border-radius: 50px;
+}
+.section7-internal-div{
+    left: 85px;
+    top: -65px;
+}
+.section7-internal-div .section7-title , .section7-subtitle-text{
+    color: var(--color2);
+}
+.section7-subtitle-text{
+    top: -40px;
+    line-height: 1.6;
+}
+.section7-internal-div .section7-sebtitleword{
+    color:var(--color1);
+    font-size: 15px;
+    font-weight: 600;
+    margin-top: 7px;
+}

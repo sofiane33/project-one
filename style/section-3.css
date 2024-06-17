@@ -1,0 +1,76 @@
+/* section-3 */
+
+div.section-3{
+    margin: 0;
+}
+.section-3 .section3-content{
+    width: 75vw;
+    margin: auto;
+}
+.section3-picturs{ 
+    width: 30%;
+    height: 300px;
+}
+.section3-picturs.pic2 , .section3-picturs.pic5{
+    margin: 0 5%;
+}
+.section3-picturs img{
+    width: 100%;
+    height: 100%;
+}
+.the-black-div.the-black-div-section3{
+  top: -8%;
+  left: -8%;
+  width: 116%;
+  height: 116%;
+  transition: opacity .5s , visibilty .5s ;
+}
+.section3-picturs:hover > .the-black-div-section3{
+    visibility: visible;
+    opacity: 100%;
+}
+.the-black-div.the-black-div-section3{
+    padding-top: 35%;
+}
+p.catg{
+    margin-top:5px;
+    color:var(--color1);
+    font-size: 20px;
+    transition: visibilty 1s, opacity 1s , margin-top .3s;
+    transition-delay: 0; 
+}
+h2.section3-layer-text{
+    color: var(--color2);
+    margin-top: 12px;
+    font-size: 30px;
+    transition: visibility 2s, opacity 2s , margin-top 0.8s;
+    transition-delay: 0.3s;
+}
+.icon.econ-layer-black{
+    color: var(--color2);
+}
+.the-black-div.the-black-div-section3 a{
+    margin-left: 5px;
+    width:40px;
+    height: 40px;
+    display: inline-block;
+    background-color:var(--color1);
+    line-height: 40px;
+    transition: visibilty 2.5s, opacity 2.5s , margin-top 0.8s ;
+    transition-delay: 0.3s;
+}
+.section3-picturs:hover > .the-black-div-section3 p{
+    visibility: visible;
+    opacity: 100%;
+    margin-top: 0px;
+}
+.section3-picturs:hover > .the-black-div-section3 h2{
+    visibility: visible;
+    opacity: 100%;
+    margin-top: 10px;
+}
+.section3-picturs:hover > .the-black-div-section3 a{
+    visibility: visible;
+    opacity: 100%;
+    margin-top: 15px;
+}

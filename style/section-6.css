@@ -1,0 +1,112 @@
+   /* section-6  */
+   .section-6{
+    height: 60vh;
+    background-image: url(../pic/wallpaperflare.co.jpg);
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.section-6 .section6-top-party{
+    width: 100%;
+    height: 25vh;
+    top: 0%;
+    left: 0%;
+    background-color: var(--color2);
+}
+.section6-bottom-party{
+    height: 100vh;
+    background-color: var(--color2);
+    padding-top: 60px;
+}
+.section-6 .section6-content{
+    height: 30vh;
+    width: 100%;
+    top: 25vh;
+    left: 0%;
+    padding-left:  155px;
+}
+.section6-icons{ 
+    height: 100%;
+    width: 20%;
+    margin: 0px 7px;
+}
+.section6-icons h1 , .section6-icons P {
+    color: var(--color2);
+}
+.section6-icons h1 {
+    margin-top: 90px;
+}
+.section6-icons .section6-icon {
+    top: 75px;
+    left: 103px;
+}
+.section6-content-bottom {
+    width: 100%;
+    height: 82%;
+    padding-left: 80px;
+    text-align: center;
+}
+.section6-content-bottom div.center{
+    height: 100%;
+    width: 30%;
+    border: solid 1px var(--color7);
+}
+.section6-content-bottom div.center{
+    margin: 0px  5px;
+}
+.section6-content-bottom div.center div.section6-price{
+    border: solid 3px var(--color1);
+    border-radius: 55px;
+    width: 110px;
+    height: 110px;
+    margin: auto;
+    padding: 25px 0px;   
+}
+.section6-content-bottom div.center div.section6-price h2{
+   font-size: 30px;
+   transition: color .5s;
+}
+.section6-content-bottom div.center div.section6-price p{
+   transition: color .5s;
+   font-size: 17px;
+   font-weight: 600;
+}
+.section6-content-bottom div.center h3{
+    margin: 40px 0 30px 0;
+    color: var(--color6);
+    transition: color .5s;
+}
+.section6-content-bottom div.center ul li{
+    color: var(--color6);
+    line-height: 1.6;
+}
+.section6-content-bottom div.center button{
+    padding: 10px;
+    color: var(--color1);
+    width: 150px;
+    height: 40px;
+    border: solid 2px var(--color1);
+    border-radius: 5px;
+    font-size: 15px;
+    cursor: pointer;
+    margin: 10px auto;
+    background-color: transparent;
+}
+.section6-bottom-party .section6-content-bottom div.center .the-black-div-section6 , .the-black-effact-ourteam{
+    width: 100%;
+    height: 0%;
+    top: 0;
+    left: 0;
+    background-color: var(--colorbg1);   
+    transition: height .5s;   
+ }
+.section6-bottom-party .section6-content-bottom div.center:hover .the-black-div-section6 {
+    height: 100%;
+}
+div.center:hover >.the-black-div-section6 div.section6-price h2 ,div.center:hover > .the-black-div-section6 div.section6-price P{
+     color: var(--color2);
+}
+div.center:hover .the-black-div-section6  h3{
+    color: var(--color1);
+}
